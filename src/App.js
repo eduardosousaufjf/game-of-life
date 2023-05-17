@@ -26,7 +26,7 @@ function App() {
 
     useEffect(() => {
         isGameOn && iterateGame();
-    }, [iteration, isGameOn]);
+    }, [iteration, isGameOn, iterateGame]);
 
     return (
         <div className="wrapper">
